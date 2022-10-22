@@ -1,0 +1,31 @@
+POST https://8v155q.deta.dev/users
+Content-Type: application/json
+
+{
+    "name": "Youssef",
+    "age": 20,
+    "hometown": "Cairo"
+}
+
+###
+
+GET https://8v155q.deta.dev/users/htjtety8ez3i
+
+###
+
+PUT https://8v155q.deta.dev/users/htjtety8ez3i
+Content-Type: application/json
+
+{
+    "name": "Ashraf",
+    "age": 20,
+    "hometown": "Cairo"
+}
+
+###
+
+DELETE https://8v155q.deta.dev/users/htjtety8ez3i
+
+###
+
+GET https://8v155q.deta.dev/download/me.jpeg
